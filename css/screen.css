@@ -23,7 +23,7 @@ body{
 }
 
 .sign-in{
-    background-color: white;
+    background-color: rgb(199, 182, 182);
     display: flex;
     flex-direction: column;
     height: max-content;
@@ -52,7 +52,7 @@ body{
 }
 
 .div input{
-    border:1px solid #c3bfbf;
+    border:1px solid #8a8080;
     font-size: 30px;
     outline: 0;
     padding: 6.4px 1.6px 6.4px 6.4px;
@@ -62,7 +62,7 @@ button{
     background-color: red;
     border: 0;
     border-radius: 8px;
-    color: #ffffff;
+    color: #887b7b;
     font-size: 30px;
     padding: 9.6px;
 }
