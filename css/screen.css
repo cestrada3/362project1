@@ -1,0 +1,68 @@
+html, body{
+    height: 100%;
+    text-align: center;
+}
+
+body{
+    background-image: url("../image/sub.png");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    font-family: "Verdana", sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background-image: url("../image/sub.png");
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body{
+        background-image: url("../image/sub.png");
+    }
+}
+
+.sign-in{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    padding: 17.6px 17.6px 17.6px 17.6px;
+    max-width: 1120px;
+    border-radius: 3.2px;
+}
+
+.sign-in h2{
+    font-size: 25px; 
+    width: max-content;
+    padding: 0 0 16px 0;
+    margin: 0 auto;
+}
+
+.div input {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+}
+
+.div label{
+    font-size: 19.2px; 
+    font-weight: 400;
+    padding-bottom: 4.8px;
+}
+
+.div input{
+    border:1px solid #c3bfbf;
+    font-size: 30px;
+    outline: 0;
+    padding: 6.4px 1.6px 6.4px 6.4px;
+}
+
+button{
+    background-color: red;
+    border: 0;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 9.6px;
+}
