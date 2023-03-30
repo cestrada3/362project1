@@ -1,9 +1,9 @@
 body {
-    background-color: clear;
+    background-color: transparent;
   }
   form {
     margin: auto;
-    background-color: clear;
+    background-color: transparent;
     width: 90%;
   }
   h1 {
