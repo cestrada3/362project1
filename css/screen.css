@@ -41,25 +41,6 @@ body {
     display: block;
     margin: auto;
   }
-  @media screen and (min-width: 480px) {
-    h1 {
-      font-size: 25px;
-    }
-    p {
-      font-size: 15px;
-    }
-    form {
-      width: 75%;
-    }
-    #input-email {
-      padding-left: 2em;
-      text-align: left;
-    }
-    #input-button {
-      padding-left: 2em;
-      text-align: left;
-    }
-  }
   body{
     background-image: url("..sub.png");
     background-image: url("../images/sub.png");
