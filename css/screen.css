@@ -27,7 +27,7 @@ body {
   #input-email {
     padding-top: 1.3em;
     padding-bottom: 1.3em;
-    background-color: #aa2323;
+    background-color: #e8dfdf;
     text-align: center;
     display: block;
     margin: auto;
@@ -35,13 +35,13 @@ body {
   #input-name {
     padding-top: 1.3em;
     padding-bottom: 1.3em;
-    background-color: #ff2f2f;
+    background-color: #e2d5d5;
     text-align: center;
     display: block;
     margin: auto;
   }
   #input-button {
-    background-color: #d43535;
+    background-color: #f0dada;
     padding-top: 0.2em;
     text-align: center;
     display: block;
