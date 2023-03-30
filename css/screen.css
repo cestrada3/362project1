@@ -33,7 +33,14 @@ body {
     display: block;
     margin: auto;
   }
-
+  #input-name {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #ff2f2f;
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
   #input-button {
     background-color: #d43535;
     padding-top: 0.2em;
