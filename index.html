@@ -1,31 +1,61 @@
 <!DOCTYPE html>
-<html lang="en" class="nojs">
-<head>
-  <title>Project 1 Subsription </title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css">
-  <script async src="js/site.js"></script>
-  <link rel="stylesheet" media="screen" href="css/screen.css">
-</head>
-<body>
-<main>
-<h1 id="community">Join the IIT News Letter Subscriptions Today!</h1>
-<h1 id="community"> Get the latest new on all student needs to know on the latest student offers, events, and more!</h1>
-  <form method="get" action="#null" autocomplete="on">
-  <ol>
-	<li id="input-email">
-		<label for="e-mail">E-mail:</label>
-		<input type="email" id="e-mail" name="e-mail" placeholder="email here" autocomplete="email">
-	</li>
-	<li id="name">
-		<label for="name">Enter Your Name</label>
-		<input type="name" id="name" name="name" placeholder="name here" autocomplete="name">
-	</li>
-	<li id="input-button">
-    <input name="button-slot" type="submit" value="Create account">
-  </ol>
-  </form>
-</main>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign Up</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/meyers_and_normalize-form_reset.css">
+    <link rel="stylesheet" href="css/screen.css">
+    <script src="js/site.js" async></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="form-title">IIT Subscription</h1>
+      <form action="#null" id="signup-form" autocomplete="on">
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter Name">
+          </div>
+          <div class="user-input-box">
+            <label for="username"> Create Username</label>
+            <input type="text" id="username" name="username" placeholder="Add Username">
+          </div>
+          <div class="user-input-box">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email">
+            <span class="error" id="email-error"></span>
+          </div>
+          <div class="user-input-box">
+            <label for="phoneNumber">Phone Number</label>
+            <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter Phone Number">
+          </div>
+          <div class="user-input-box">
+            <label for="password"> Create Password</label>
+            <input type="password" id="password" name="password" placeholder="Create Password">
+          </div>
+          <div class="user-input-box">
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password">
+          </div>
+        </div>
+        <div class="gender-details-box">
+          <span class="gender-title">Gender</span>
+          <div class="gender-category">
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+          </div>
+        </div>
+        <div class="form-submit-btn">
+          <input type="submit" value="Create Subscription">
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
