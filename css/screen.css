@@ -61,7 +61,7 @@ body {
   height: 40px;
   border-radius: 7px;
   outline: none;
-  border: 1px solid rgb(132, 7, 7)
+  border: 1px solid rgb(132, 7, 7);
   padding: 0 10px;
   max-width: 100%;
 }
@@ -78,7 +78,7 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
-  color: rgb(132, 8, 7);
+  color: rgba(255, 255, 255, 0.643)
 }
 
 .gender-category label {
