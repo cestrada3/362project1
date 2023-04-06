@@ -22,7 +22,7 @@ body {
   margin: 0 auto;
   padding: 28px;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(220, 216, 216, 0.23);
 }
 
 .form-title {
@@ -78,7 +78,7 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
-  color: rgba(255, 255, 255, 0);
+  color: rgba(255, 255, 255, 0.643);
 }
 
 .gender-category label {
@@ -105,7 +105,7 @@ body {
   padding: 10px 20px;
   border: none;
   border-radius: 3px;
-  color: rgba(209, 209, 209, 0);
+  color: rgba(209, 209, 209, 0.499);
   background: rgb(114, 63, 63);
 }
 
